@@ -21,7 +21,7 @@ The definition of Big-O is as follows:
 
 $f(n)\in O(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) \leq c g(n)$
 
-If $f(n)\in o(g(n))$, then c>0, and $n\ge n_0$ and $f(n) < c g(n)$
+If $f(n)\in o(g(n))$, then c>0, and $n\ge n_0$ and $f(n) < c g(n)$/
 Assuming the same arbitrary values for c and n_0 from the above line, then it follows that $f(n) \leq c g(n)$
 This is due to the constraints on less than or equal to being looser than those of less than.
 Since $c>0, n\ge n_0$ and $f(n) \leq c g(n)$, then $f(n)\in O(g(n))$, which is what was to be proven.
